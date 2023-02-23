@@ -1,0 +1,17 @@
+SITES PARA EMOJI:
+
+https://emojipedia.org
+
+* <!--Local para pode achar mais emojis é o emojipedia, lá você procura qual o emoji que você quer e vai até a opção "codepoints" 
+que fica no finalzinho da página que tem o emoji que você selecionou-->
+
+&#x1F977; <!--Para colocar os emojis utilize "&#x" antes do código-->
+
+*  "&" é usado para colocarmos simbolos especiais no site:
+&reg <!--Simbolo especial sobre Marca registrada-->
+&copy; <!--Simbolo especial sobre Copyright-->
+&trade; <!--Simbolo especial sobre marca registrada, tm-->
+&euro; <!--Moedas também são simbolos especiais-->
+&yen; <!--Moedas também são simbolos especiais-->
+&pound; <!--Moedas também são simbolos especiais-->
+&cent; <!--Moedas também são simbolos especiais-->

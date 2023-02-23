@@ -1,0 +1,8 @@
+* Colocar imagens muito pesadas no site fará com que ele fique mais lento de carregar no servidor
+para isso é interessante ter um padrão de tamanho de imagem para que ela possa rodar bem no site.
+
+uma imagem com um tamanho de até uns 30kb é o ideal para se pensar, claro que pela qualidade da imagem
+ela pode se tornar mais pesadas que outras, é normal isso, mas tome come base tamanhos como esse.
+
+já a dimensão da imagem pode ser de em torno 200x200 ela já vai ser uma imagem mediana no site, caso queira 
+menor é só diminuir e aumentar é só aumentar.

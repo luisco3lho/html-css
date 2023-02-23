@@ -1,0 +1,8 @@
+SITES PARA ICONE DE FAVORITO:
+
+favicon.io -> tento opções de conversão para um icon (melhorzinho)
+favicon.cc -> podendo criar um icon
+iconarchive -> pesquise algo, ache um icon sobre
+
+* Da para usar imagens em PNG como icon sim, mas é mais recomendado utilizarmos 
+uma imagem com a extensão ".icon"

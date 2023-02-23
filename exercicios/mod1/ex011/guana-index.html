@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídia do Guana</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em várois dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="dinamic-img/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="dinamic-img/M.png" type="image/png">
+        <img src="dinamic-img/G.png" alt="imagem dinâmica">
+    </picture>
+
+    <h1>Reproduzindo um áudio</h1>
+    <p>Vamos colocar algo pra tocar ai</p>
+    <audio src="audio/just sayin.mp3" controls></audio>
+    <hr>
+    <audio preload="metadata" controls>
+        <source src="audio/ÈÈÈÈÈÈÈ.mp3" type="audio/mpeg">
+        <source src="audio/ÈÈÈÈÈÈÈ.mp3" type="audio/ogg">
+        <source src="audio/ÈÈÈÈÈÈÈ.mp3" type="audio/wav">
+        <a href="audio/ÈÈÈÈÈÈÈ.mp3" download="eeeeeee">Parece que seu navegador não tem suporte para áudio. Baixe para ouvi-lo</a>
+    </audio>
+    <!-- MP3, WAV e OGG -->
+</body>
+</html>

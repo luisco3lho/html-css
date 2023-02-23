@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídia dinamicas</title>
+</head>
+<body>
+    <h1>Aprendendo sobre imagens dinâmicas</h1>
+    <hr>
+    <p>Agora um exemplo de imagem dinâmica, para alterar o seu tamanho basta mudar o tamanho da janela do seu navegador, seja aumentando ela ou diminuindo.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="dinamic-img/leque-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="dinamic-img/leque-m.jpg" type="image/jpg">
+        <img src="dinamic-img/leque-g.jpg" alt="A imagem dinâmica funciona">
+    </picture>
+    <hr>
+    <h1>Agora o foco será para os áudios</h1>
+    <p>O exemplo a seguir será de como é a reprodução de um áudio dentro de um site.</p>
+    <audio preload="metadata" controls>
+        <source src="audio/just sayin.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso seu navegador não suporte áudio <a href="audio/just sayin.mp3" download="just-sayin.mp3" type="audio/mpeg">baixe aqui a música</a></p>
+    <hr>
+    <h1>Nesse momento tentaremos hospedar vídeos em nosso site local</h1>
+    <video width="600" poster="dinamic-img/leque-g.jpg"controls>
+        <source src="audio/Mudamuda.webm" type="video/webm">
+        <source src="audio/auuuuuuuuuuuuuuuuuu.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
